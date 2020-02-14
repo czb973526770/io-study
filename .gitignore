@@ -1,4 +1,4 @@
-target \
-.idea \
-.git \
+target
+.idea
+.git
 *.iml
