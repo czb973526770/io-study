@@ -95,6 +95,7 @@ public class MultiThreadEchoServerReactor {
             try {
                 socketChannel = serverSocketChannel.accept();
                 if (socketChannel != null) {
+                    //若需要将反应器线程的连接与分派处理器分离，则控制selectors[i]
                     new MultiThreadEchoHandler(socketChannel, selectors[next.get()]);
                 }
                 if (next.incrementAndGet() == selectors.length) {

@@ -1214,11 +1214,11 @@ public final class ProtoMsg {
     int getCode();
 
     /**
-     * <code>string debug = 3;</code>
+     * <code>string info = 3;</code>
      */
     java.lang.String getInfo();
     /**
-     * <code>string debug = 3;</code>
+     * <code>string info = 3;</code>
      */
     com.google.protobuf.ByteString
         getInfoBytes();
@@ -1345,7 +1345,7 @@ public final class ProtoMsg {
     public static final int INFO_FIELD_NUMBER = 3;
     private volatile java.lang.Object info_;
     /**
-     * <code>string debug = 3;</code>
+     * <code>string info = 3;</code>
      */
     public java.lang.String getInfo() {
       java.lang.Object ref = info_;
@@ -1360,7 +1360,7 @@ public final class ProtoMsg {
       }
     }
     /**
-     * <code>string debug = 3;</code>
+     * <code>string info = 3;</code>
      */
     public com.google.protobuf.ByteString
         getInfoBytes() {
@@ -1794,7 +1794,7 @@ public final class ProtoMsg {
 
       private java.lang.Object info_ = "";
       /**
-       * <code>string debug = 3;</code>
+       * <code>string info = 3;</code>
        */
       public java.lang.String getInfo() {
         java.lang.Object ref = info_;
@@ -1809,7 +1809,7 @@ public final class ProtoMsg {
         }
       }
       /**
-       * <code>string debug = 3;</code>
+       * <code>string info = 3;</code>
        */
       public com.google.protobuf.ByteString
           getInfoBytes() {
@@ -1825,7 +1825,7 @@ public final class ProtoMsg {
         }
       }
       /**
-       * <code>string debug = 3;</code>
+       * <code>string info = 3;</code>
        */
       public Builder setInfo(
           java.lang.String value) {
@@ -1838,7 +1838,7 @@ public final class ProtoMsg {
         return this;
       }
       /**
-       * <code>string debug = 3;</code>
+       * <code>string info = 3;</code>
        */
       public Builder clearInfo() {
         
@@ -1847,7 +1847,7 @@ public final class ProtoMsg {
         return this;
       }
       /**
-       * <code>string debug = 3;</code>
+       * <code>string info = 3;</code>
        */
       public Builder setInfoBytes(
           com.google.protobuf.ByteString value) {
@@ -3517,11 +3517,11 @@ public final class ProtoMsg {
     int getCode();
 
     /**
-     * <code>string debug = 3;</code>
+     * <code>string info = 3;</code>
      */
     java.lang.String getInfo();
     /**
-     * <code>string debug = 3;</code>
+     * <code>string info = 3;</code>
      */
     com.google.protobuf.ByteString
         getInfoBytes();
@@ -3670,7 +3670,7 @@ public final class ProtoMsg {
     public static final int INFO_FIELD_NUMBER = 3;
     private volatile java.lang.Object info_;
     /**
-     * <code>string debug = 3;</code>
+     * <code>string info = 3;</code>
      */
     public java.lang.String getInfo() {
       java.lang.Object ref = info_;
@@ -3685,7 +3685,7 @@ public final class ProtoMsg {
       }
     }
     /**
-     * <code>string debug = 3;</code>
+     * <code>string info = 3;</code>
      */
     public com.google.protobuf.ByteString
         getInfoBytes() {
@@ -4172,7 +4172,7 @@ public final class ProtoMsg {
 
       private java.lang.Object info_ = "";
       /**
-       * <code>string debug = 3;</code>
+       * <code>string info = 3;</code>
        */
       public java.lang.String getInfo() {
         java.lang.Object ref = info_;
@@ -4187,7 +4187,7 @@ public final class ProtoMsg {
         }
       }
       /**
-       * <code>string debug = 3;</code>
+       * <code>string info = 3;</code>
        */
       public com.google.protobuf.ByteString
           getInfoBytes() {
@@ -4203,7 +4203,7 @@ public final class ProtoMsg {
         }
       }
       /**
-       * <code>string debug = 3;</code>
+       * <code>string info = 3;</code>
        */
       public Builder setInfo(
           java.lang.String value) {
@@ -4216,7 +4216,7 @@ public final class ProtoMsg {
         return this;
       }
       /**
-       * <code>string debug = 3;</code>
+       * <code>string info = 3;</code>
        */
       public Builder clearInfo() {
         
@@ -4225,7 +4225,7 @@ public final class ProtoMsg {
         return this;
       }
       /**
-       * <code>string debug = 3;</code>
+       * <code>string info = 3;</code>
        */
       public Builder setInfoBytes(
           com.google.protobuf.ByteString value) {
